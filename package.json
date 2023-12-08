@@ -24,7 +24,7 @@
     "version": "auto-changelog -p && npm run build:dist && npm run build:standalone && git add CHANGELOG.md dist",
     "prepublishOnly": "npm run build:lib && npm run build:lazy && npm run build:dist && npm run build:es6 && node scripts/pre-publish.js && cp -r types/* .",
     "postpublish": "node scripts/post-publish.js && npm run clean",
-    "preinstall": "npm run build:lib"
+    "preinstall": "npm run build:lib && cp -r types/* ."
   },
   "repository": {
     "type": "git",
