@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
+import { MATCH_URL_DAILYMOTION, canPlay } from '../patterns'
 import { callPlayer, getSDK, parseStartTime } from '../utils'
-import { canPlay, MATCH_URL_DAILYMOTION } from '../patterns'
 
-const SDK_URL = 'https://api.dmcdn.net/all.js'
+const SDK_URL = './js/dailymotion.js'
 const SDK_GLOBAL = 'DM'
 const SDK_GLOBAL_READY = 'dmAsyncInit'
 

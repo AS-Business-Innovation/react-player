@@ -22,8 +22,7 @@ const IS_SAFARI =
   HAS_NAVIGATOR &&
   /^((?!chrome|android).)*safari/i.test(navigator.userAgent) &&
   !window.MSStream;
-const HLS_SDK_URL =
-  "https://cdn.jsdelivr.net/npm/hls.js@VERSION/dist/hls.min.js";
+const HLS_SDK_URL = "./js/hls.min.js";
 const HLS_GLOBAL = "Hls";
 const DASH_SDK_URL = "./js/dash.all.min.js";
 const DASH_GLOBAL = "dashjs";

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { callPlayer, getSDK, parseStartTime, parseEndTime } from '../utils'
 import { canPlay, MATCH_URL_YOUTUBE } from '../patterns'
 
-const SDK_URL = 'https://www.youtube.com/iframe_api'
+const SDK_URL = './js/youtube.js'
 const SDK_GLOBAL = 'YT'
 const SDK_GLOBAL_READY = 'onYouTubeIframeAPIReady'
 const MATCH_PLAYLIST = /[?&](?:list|channel)=([a-zA-Z0-9_-]+)/

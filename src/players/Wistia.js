@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
+import { MATCH_URL_WISTIA, canPlay } from '../patterns'
 import { callPlayer, getSDK, randomString } from '../utils'
-import { canPlay, MATCH_URL_WISTIA } from '../patterns'
 
-const SDK_URL = 'https://fast.wistia.com/assets/external/E-v1.js'
+const SDK_URL = './js/wistia.js'
 const SDK_GLOBAL = 'Wistia'
 const PLAYER_ID_PREFIX = 'wistia-player-'
 

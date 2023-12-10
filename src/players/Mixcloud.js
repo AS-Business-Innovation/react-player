@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
+import { MATCH_URL_MIXCLOUD, canPlay } from '../patterns'
 import { callPlayer, getSDK, queryString } from '../utils'
-import { canPlay, MATCH_URL_MIXCLOUD } from '../patterns'
 
-const SDK_URL = 'https://widget.mixcloud.com/media/js/widgetApi.js'
+const SDK_URL = './js/mixcloud.js'
 const SDK_GLOBAL = 'Mixcloud'
 
 export default class Mixcloud extends Component {

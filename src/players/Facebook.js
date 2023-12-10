@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-import { callPlayer, getSDK, randomString } from '../utils'
 import { canPlay } from '../patterns'
+import { callPlayer, getSDK, randomString } from '../utils'
 
-const SDK_URL = 'https://connect.facebook.net/en_US/sdk.js'
+const SDK_URL = './js/facebook.js'
 const SDK_GLOBAL = 'FB'
 const SDK_GLOBAL_READY = 'fbAsyncInit'
 const PLAYER_ID_PREFIX = 'facebook-player-'
